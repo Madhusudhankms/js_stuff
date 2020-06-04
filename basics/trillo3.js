@@ -4,7 +4,7 @@ myTodo = {
     meetleft: 0,
 meetingss : function(num){
     this.meetings=this.meetings + num
-    //return this.meetings
+    //return this.meeting,
 },
 meetingsLeft : function(num2){
     this.meetleft = this.meetings-num2
