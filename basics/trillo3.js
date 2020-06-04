@@ -1,7 +1,7 @@
 myTodo = {
     day: 'monday',                  //create a function that will caluculat meeetings and reset meetings
-    meetings : 0,
-    meetleft: 0,
+    meetings : 0,                    //meetings
+    meetleft: 0, 
 meetingss : function(num){
     this.meetings=this.meetings + num
     //return this.meeting,
