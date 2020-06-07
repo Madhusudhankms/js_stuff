@@ -22,7 +22,7 @@
 
 // }) 
 //console.log(findtodo)
-  
+
 const findTodo =function(mytodoss,title){
     const index = mytodoss.findIndex(function(todo,index){
         return todo.title.toLowerCase()===title.toLowerCase()
