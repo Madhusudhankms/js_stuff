@@ -6,7 +6,7 @@
 //random stuff
 //console.log(Math.random())
 
-let upperB=6
-let lowerB=1
+let upperB=25
+let lowerB=20
 let randomno = Math.ceil(Math.random() * (upperB-lowerB+1))+lowerB
 console.log(randomno)
