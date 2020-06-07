@@ -2,7 +2,7 @@
 //     return 'hey there '+name+'!'
 // }
 
-//console.log(sayHello('madhu'))
+console.log(sayHello('madhu'))
 
 const todo=[{
     title :'good mng',
@@ -16,8 +16,12 @@ const todo=[{
 {
     title : 'take rest',
     isDone : false
+
 }]
 
-const thingsDone = todo.filter((todo)=> todo.isDone === true )
+const thingsDone = todo.filter(()=>{
+    return todo.isDone ===true 
+
+})
 
 console.log(thingsDone)

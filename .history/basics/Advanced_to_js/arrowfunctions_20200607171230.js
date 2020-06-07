@@ -4,6 +4,7 @@
 
 //console.log(sayHello('madhu'))
 
+
 const todo=[{
     title :'good mng',
     isDone : true
@@ -16,6 +17,7 @@ const todo=[{
 {
     title : 'take rest',
     isDone : false
+
 }]
 
 const thingsDone = todo.filter((todo)=> todo.isDone === true )

@@ -16,8 +16,13 @@ const todo=[{
 {
     title : 'take rest',
     isDone : false
+
 }]
 
-const thingsDone = todo.filter((todo)=> todo.isDone === true )
+const thingsDone = todo.filter(()=>{
+    console.log(todo)
+    return todo.isDone === true 
+
+})
 
 console.log(thingsDone)
